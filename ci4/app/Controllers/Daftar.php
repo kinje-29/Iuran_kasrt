@@ -81,7 +81,7 @@ class Daftar extends BaseController
     ])) {
       $validation = \Config\Services::validation();
       return redirect()->to('/daftar/create/')->withInput()->with('validation', $validation);
-    } 
+    }
 
     $data = [
       'warga_id' => $this->request->getVar('warga_id'),
@@ -118,15 +118,15 @@ class Daftar extends BaseController
   }
 
 
-  // public function kas()
-  // {
+  public function kas()
+  {
 
 
-  //   $data = [
-  //     'title' => 'Daftar yang belum bayar KAS',
-  //     'kas' => $this->KasModel->getAll()
-  //   ];
+    $data = [
+      'title' => 'Daftar yang belum bayar KAS',
+      'kas' => $this->KasModel->getAll()
+    ];
 
-  //   return view('laporan/kas', $data);
-  // }
+    return view('laporan/kas', $data);
+  }
 }

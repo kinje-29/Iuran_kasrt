@@ -25,15 +25,4 @@ class Laporan extends BaseController
     return view('laporan/index', $data);
   }
 
-
-  // Laporan Kas Yang belum Bayar
-  public function laporan_belum_bayar()
-  {
-    $data = [
-      'title' => "Data Belum Bayar",
-      
-    ];
-
-    return view('laporan/laporan_belum_bayar',$data);
-  }
 }

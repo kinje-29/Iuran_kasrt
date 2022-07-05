@@ -227,4 +227,17 @@ class Home extends BaseController
 
 
 
+    // Percobaan Form Iuran
+    public function form_iuran()
+    {
+        session();
+        $data = [
+            'title' => 'Form Edit Data Warga',
+            'validation' => \Config\Services::validation(),
+            'warga' => $this->DaftarModel->getDaftar()
+        ];
+        return view('/daftar/form_iuran', $data);
+    }
+
+
 }

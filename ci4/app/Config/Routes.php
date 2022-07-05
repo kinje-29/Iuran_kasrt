@@ -48,9 +48,9 @@ $routes->get('/daftar/create/(:any)', 'Home::panggil/$1');
 $routes->post('/daftar/save', 'Daftar::save');
 $routes->delete('/daftar/(:any)', 'Daftar::delete/$1');
 
+$routes->get('/daftar/form_iuran', 'Home::form_iuran');
 
-
-$routes->get('/laporan/laporan_belum_bayar','Laporan::laporan_belum_bayar');
+// $routes->get('/laporan/laporan_belum_bayar','Laporan::laporan_belum_bayar');
 
 /*
  * --------------------------------------------------------------------

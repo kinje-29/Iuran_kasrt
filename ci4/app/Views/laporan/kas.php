@@ -24,7 +24,7 @@
           <th scope="row"><?= $n++; ?></th>
           <td><?= $values->nik ?></td>
           <td><?= $values->nama ?></td>
-          <!-- <td><?= $values->keterangan ?></td> -->
+          <td><?= $values->keterangan ?></td>
         </tr>
       </tbody>
       <?php endforeach; ?>

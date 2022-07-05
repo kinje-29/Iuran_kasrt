@@ -11,6 +11,7 @@
         <a href="/warga" class="btn btn-primary bg-gradient fs-3 w-75 mb-4">Data Warga</a>
         <a href="/daftar" class="btn bg-success bg-gradient text-light fs-3 w-75 mb-4">Daftar KAS Warga</a>
         <a href="/laporan" class="btn bg-info bg-gradient text-light fs-3 w-75 ">Laporan Transaksi</a>
+        <a href="/daftar/form_iuran" class="btn bg-info bg-gradient text-light fs-3 w-75 ">Laporan Transaksi</a>
       </div>
       <div class="col">
         <div class="card">
